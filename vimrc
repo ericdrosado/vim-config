@@ -2,7 +2,7 @@ set nocompatible              " be iMproved, required
 filetype off                  " required
 
 " set the runtime path to include Vundle and initialize
-set rtp+=~/.vim/bundle/Vundle.vim
+set rtp+=~/.vim/vim-config/bundle/Vundle.vim
 call vundle#begin()
 
 " let Vundle manage Vundle, required
@@ -31,3 +31,5 @@ map <C-n> :NERDTreeToggle<CR>
 syntax on
 " Background Color Scheme
 colorscheme desert
+" Number lines
+set number
