@@ -1,5 +1,5 @@
 set nocompatible              " be iMproved, required
-filetype off                  " required
+filetype off         	      " required
 
 " set the runtime path to include Vundle and initialize
 set rtp+=~/.vim/vim-config/bundle/Vundle.vim
@@ -33,3 +33,5 @@ syntax on
 colorscheme desert
 " Number lines
 set number
+" C# indentation
+autocmd FileType cs setlocal shiftwidth=4 tabstop=4
