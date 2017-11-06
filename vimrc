@@ -9,6 +9,7 @@ call vundle#begin()
 Plugin 'VundleVim/Vundle.vim'
 Plugin 'scrooloose/nerdtree'
 Plugin 'jiangmiao/auto-pairs'
+Plugin 'scrooloose/syntastic'
 
 call vundle#end()            " required
 filetype plugin indent on    " required
@@ -34,5 +35,7 @@ syntax on
 colorscheme desert
 " Number lines
 set number
+" Wrap text
+set wrap
 " C# indentation
 autocmd FileType cs setlocal shiftwidth=4 tabstop=4
