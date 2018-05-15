@@ -10,6 +10,7 @@ Plugin 'VundleVim/Vundle.vim'
 Plugin 'scrooloose/nerdtree'
 Plugin 'jiangmiao/auto-pairs'
 Plugin 'scrooloose/syntastic'
+Plugin 'kballard/vim-swift'
 
 call vundle#end()            " required
 filetype plugin indent on    " required
@@ -39,3 +40,5 @@ set number
 set wrap
 " C# indentation
 autocmd FileType cs setlocal shiftwidth=4 tabstop=4
+" Spell Check
+" set spell
